@@ -1,8 +1,0 @@
-django-secret-key
-setup.py
-django_secret_key.egg-info/PKG-INFO
-django_secret_key.egg-info/SOURCES.txt
-django_secret_key.egg-info/dependency_links.txt
-django_secret_key.egg-info/pbr.json
-django_secret_key.egg-info/requires.txt
-django_secret_key.egg-info/top_level.txt
