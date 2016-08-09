@@ -1,0 +1,12 @@
+#!/usr/bin/python env
+from sys import version_info
+from django.utils.crypto import get_random_string
+
+chars = 'abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*(-_=+)'
+SECRET_KEY = get_random_string(50, chars)
+
+python3 = version_info[0] > 2
+if python3:
+    print (SECRET_KEY)
+else:
+    print SECRET_KEY
